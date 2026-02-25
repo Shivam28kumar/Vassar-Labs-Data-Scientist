@@ -78,12 +78,13 @@ A rigorous comparative analysis was performed across seven key regression metric
 └── requirements.txt
 
 
-# 🚀 Getting Started
+---
 
-Execution
-Launch the complete analysis and modeling pipeline using Jupyter Notebook:
+## 🚀 Getting Started
 
-Bash
-jupyter notebook notebooks/soil_moisture_model.ipynb
+* **🔧 Installation
 
-The modeling pipeline includes:Detailed Exploratory Data Analysis (EDA): Statistical summaries and distribution analysis.Data Cleaning & Preprocessing: Outlier removal and feature scaling.Feature Engineering: Harmonizing Sentinel-1 and SMAP data.Model Training: Comprehensive training for 10+ ML models and Advanced ANN.Performance Evaluation: Comparative analysis using $R^2$, RMSE, and MAE.🔮 Future Work⚙️ Hyperparameter OptimizationImplement Bayesian optimization (e.g., Optuna) to automatically tune model parameters, moving beyond grid search to significantly improve predictive performance.🧠 Hybrid LearningDevelop a meta-learner to combine top-performing ensemble models (e.g., Random Forest + XGBoost) using stacking or blending techniques to reduce variance and bias.🌍 Spatio-Temporal ExtensionExtend the framework to support 4D environmental modeling ($x, y, z, t$), enabling dynamic soil moisture monitoring across both geographical space and time.👤 AuthorShivam Kumar M.Tech in Artificial Intelligence Indian Institute of Technology (IIT), PatnaSpecialization: Remote Sensing • Machine Learning • Predictive Modeling📌 ConclusionThis study establishes a scalable and scientifically grounded regression framework for soil moisture estimation. The results demonstrate that ensemble learning techniques provide the most robust and reliable performance when integrating multi-modal satellite remote sensing data, consistently outperforming standard linear and deep learning baselines in tabular contexts.
+git clone https://github.com/yourusername/soil-moisture-prediction.git
+cd soil-moisture-prediction
+pip install -r requirements.txt
+Clone the repository and install the required dependencies:** 
